@@ -6,7 +6,12 @@ import dua from '../assets/section3/dua.webp';
 import tiga from '../assets/section3/tiga.webp';
 import empat from '../assets/section3/empat.webp';
 import lima from '../assets/section3/lima.webp';
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Section3 = () => {
+    AOS.init();
+	AOS.refresh();
+	AOS.refreshHard();
     const Params = useParams();
   let ID = Params.id;
   console.log(ID)
@@ -61,10 +66,12 @@ const Section3 = () => {
             break;
     }});
     return (
-       <>
-       <p className="bg-white w-full py-8 relative flex justify-center font-bold text-6xl mobile:flex mobile:justify-center mobile:text-4xl">Cara pesan GoRide</p>
+       <div className="bg-white">
+       <p className="bg-white w-full py-8 relative flex justify-center font-bold text-6xl mobile:flex mobile:justify-center mobile:text-4xl" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="200">Cara pesan GoRide</p>
        <div className="bg-white w-full flex flex-row justify-between mobile:flex-col-reverse mobile:gap-y-5">
-       <ul className="pl-20 mobile:px-5">
+       <ul className="pl-20 mobile:px-5" data-aos="fade-right"
+		data-aos-duration="1000"
+		data-aos-delay="200">
             <li onClick={handleSatu} className={number === "1" ?'  bg-[#00AA13] animation-fade rounded-[20px] py-2 px-5 w-full text-white ':"bg-white animation-fade rounded-[50px] py-2 px-5 w-fit "}> 
                 <p className="font-bold text-2xl pb-5">1․ Buka aplikasi Gojek, lalu pilih GoRide</p>
                 <p className="pl-6 mobile:pl-0">Ikonnya gambar motor, parkir di home screen Gojek.</p>    
@@ -90,28 +97,28 @@ const Section3 = () => {
 
       
       <div         className={number === "1"? ' ease-in-out duration-1000  transition-all animation-fade xl:w-3/5 block mx-auto my-auto mobile:w-full sm:w-full lg:w-4/5' : 'hidden animation-fade'}>
-        <img src ={satu} judul ="MAKANAN" color="hijau"/> 
+        <img src ={satu} judul ="satu" color="hijau"/> 
 
        </div>
        <div         className={number === "2"? ' ease-in-out duration-1000  transition-all animation-fade xl:w-3/5 block mx-auto my-auto mobile:w-full sm:w-full lg:w-4/5' : 'hidden animation-fade'}>
       
-       <img src ={dua} judul ="MINUMAN" color="purple" />
+       <img src ={dua} judul ="dua" color="purple" />
         </div>
         <div         className={number === "3"? ' ease-in-out duration-1000  transition-all animation-fade xl:w-3/5 block mx-auto my-auto mobile:w-full sm:w-full lg:w-4/5' : 'hidden animation-fade'}>
         
-        <img src ={tiga} judul =" AKSESORIS" color="orange" />
+        <img src ={tiga} judul =" tiga" color="orange" />
         </div>
       <div       className={number === "4"? '  ease-in-out duration-1000  transition-all animation-fade xl:w-3/5 block mx-auto my-auto mobile:w-full sm:w-full lg:w-4/5' : 'hidden animation-fade'}>
      
    
       
-      <img src ={empat} judul ="PAKAIAN" color = "merah-orange"/>
+      <img src ={empat} judul ="empat" color = "merah-orange"/>
        </div>
        <div       className={number === "5"? '  ease-in-out duration-1000  transition-all animation-fade xl:w-3/5 block mx-auto my-auto mobile:w-full sm:w-full lg:w-4/5' : 'hidden animation-fade' }>
      
    
       
-      <img src ={lima} judul ="PAKAIAN" color = "merah-orange"/>
+      <img src ={lima} judul ="lima" color = "merah-orange"/>
        </div>
       
        
@@ -119,7 +126,7 @@ const Section3 = () => {
        
     
    </div>
-       </> 
+       </div> 
     );
 }
 
