@@ -19,7 +19,7 @@ const Section5 = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-auto h-[494px] sm:mx-20 sm:rounded-[50px] sm:bg-bgdekstop5 mobile:bg-bgmobile5  mobile:bg-cover">
+            <div className="bg-auto h-[494px] sm:mx-20 sm:rounded-[50px] sm:bg-bgdekstop5 mobile:bg-bgmobile5  mobile:bg-cover bottom-20 mt-20 relative">
                 <div className="relative flex flex-col lg:left-[600px] xl:left-[700px] sm:top-40 mobile:top-60">
                     <p className="mobile:text-3xl sm:text-4xl font-bold text-white mobile:px-5">Gabung jadi Mitra Driver</p>
                     <p className="pt-12 text-white mobile:px-5">Bergabunglah bersama jutaan mitra driver kami se-Indonesia.</p>
