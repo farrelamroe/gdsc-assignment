@@ -2,7 +2,7 @@ import background from '../assets/background.webp';
 
 const Section1 = () => {
     return(
-        <div className="h-full relative bg-cover xl:bg-bgdesktop mobile:bg-bgmobile sm:bg-bgdesktop">
+        <div className="z-0 mobile:mt-40 sm:mt-[120px] h-full relative bg-cover xl:bg-bgdesktop mobile:bg-bgmobile sm:bg-bgdesktop">
             <div className="relative block h-[550px] text-left pt-60 pl-20 text-3xl font-bold mobile:pt-80 mobile:pl-5">
                 <h1 className="text-6xl text-white mobile:text-4xl">Bikin nyampe duluan</h1>
                 <div className="pt-12 text-lg text-white">

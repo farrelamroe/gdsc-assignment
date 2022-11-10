@@ -42,8 +42,8 @@ const Section2 = () =>{
                             <h2 className="text-base mobile:pt-5 ">Driver telah melalui proses rekrutmen yang ketat, menerima modul on-boarding dan program pelatihan keamanan berkendara yang komprehensif di Rifat Drive Labs.</h2>
                             <h2 className="text-base mobile:pt-5 ">Baca cerita Driver Jempolan dan pelatihan P3K dan anti kekerasan seksual melalui Bengkel Belajar Mitra (BBM) </h2>
                             <div className="flex flex-row gap-x-4 text-[#00AA13] mobile:flex-col gap-y-5">
-                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:animate-fade hover:bg-[#00AA13] hover:text-white text-center">Driver Jempolan</p>
-                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:bg-[#00AA13] hover:text-white text-center">Bengkel Belajar Mitra</p>
+                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:animate-fade hover:bg-[#00AA13] hover:text-white text-center cursor-pointer">Driver Jempolan</p>
+                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:bg-[#00AA13] hover:text-white text-center hover:cursor-pointer">Bengkel Belajar Mitra</p>
                             </div>
                         </div>
                         <img src={section2_4} alt="section2_1" className="lg:w-[600px] rounded-[50px] sm:mr-20 mobile:rounded-lg mobile:w-[600px] sm:w-[300px] h-fit my-auto"/>

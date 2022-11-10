@@ -13,8 +13,8 @@ const Section5 = () => {
                             <h1 className="text-4xl font-bold sm:block">Info Selengkapnya </h1>
                             <h2 className="text-base flex justify-center items-center"> Kamu bisa mencari tahu lebih lengkap dengan membuka halaman FAQ atau bisa langsung menghubungi kami.</h2>
                             <div className="flex flex-row gap-x-4 text-[#00AA13] mobile:flex-col gap-y-5">
-                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:animate-fade hover:bg-[#00AA13] hover:text-white text-center">FAQ</p>
-                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:bg-[#00AA13] hover:text-white text-center">Hubungi Kami</p>
+                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:animate-fade hover:bg-[#00AA13] hover:text-white text-center cursor-pointer">FAQ</p>
+                                <p className="rounded-full border-2 border-[#00AA13] px-5 py-2 hover:bg-[#00AA13] hover:text-white text-center cursor-pointer">Hubungi Kami</p>
                              </div>
                     </div>
                 </div>
