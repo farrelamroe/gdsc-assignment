@@ -34,6 +34,8 @@ module.exports = {
 		backgroundImage: {
 			bgmobile: "url('../src/assets/162d4db6b536ff3412f23571a08525c5.webp')",
 			bgdesktop:"url('../src/assets/background.webp')",
+			bgmobile5: "url('../src/assets/section5/section5_2mobile.webp')",
+			bgdekstop5: "url('../src/assets/section5/section5_2.webp')",
 		},
 	},
 	plugins: [],
