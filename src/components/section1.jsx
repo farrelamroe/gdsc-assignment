@@ -7,10 +7,10 @@ const Section1 = () => {
 	AOS.refresh();
 	AOS.refreshHard();
     return(
-        <div className="z-0 mobile:mt-40 sm:mt-[120px] h-full relative bg-cover xl:bg-bgdesktop mobile:bg-bgmobile sm:bg-bgdeskto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div className="z-0 mobile:mt-40 sm:mt-[120px] h-full relative bg-cover xl:bg-bgdesktop mobile:bg-bgmobile sm:bg-bgdeskto">
             <div className="relative block h-[550px] text-left pt-60 pl-20 text-3xl font-bold mobile:pt-80 mobile:pl-5">
-                <h1 className="text-6xl text-white mobile:text-4xl">Bikin nyampe duluan</h1>
-                <div className="pt-12 text-lg text-white">
+                <h1 className="text-6xl text-white mobile:text-4xl" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Bikin nyampe duluan</h1>
+                <div className="pt-12 text-lg text-white" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                     <h2>Anton : Cendekiawan</h2>
                     <h2 className="text-[#F06400]"><i>#PastiAdaJalan</i></h2>
 
