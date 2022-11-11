@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import {dataFoto} from '../assets/sectiontambahan/dataSection';
+import {dataFoto} from '../assets/sectiontambahan2/dataSection';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
@@ -46,16 +46,16 @@ const SectionTambahan = () => {
     };
 
     return(
-      <div className="bg-[#E99C32]">
-        <div className="bg-[#4AC9E3] rounded-t-[100px]">
+      <div className="bg-[#7CCC6C]">
+        <div className="bg-[#FF808B] rounded-t-[100px]">
             <div className="h-auto block mx-auto px-20 gap-x-6 mobile:px-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <p className="text-4xl pt-12 font-bold" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Pembayaran</p>
-                <p className="pt-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Dari belanja sampe donasi, kita bikin transaksi jadi gampang dan aman.</p>
+                <p className="text-4xl pt-12 font-bold" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Pesan makan dan belanja </p>
+                <p className="pt-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Mau jajan atau belanja di minimarket? Gampang, tinggal pesan dari aplikasi.</p>
                     <Slider {...settings} >
                         {dataFoto.map((item) =>
                             <>
                                 <div className="h-[300px] flex flex-col gap-y-5 bg-white py-5 rounded-[50px] shadow-xl lg:mx-6 my-12 pb-1 lg:px-12 mobile:mx-1 mobile:px-5 sm:mx-5 sm:px-5">
-                                    <img src={require('../assets/sectiontambahan/'+item.img+'.svg')} alt="foto" className="w-3/5 pb-6"/>
+                                    <img src={require('../assets/sectiontambahan2/'+item.img+'.svg')} alt="foto" className="w-3/5 pb-6"/>
                                     <p className="">{item.description}</p>
                                     <p className="pt-6 justify-end absolute bottom-20 cursor-pointer hover:font-bold">Know more &#8594;</p>
                                 </div>

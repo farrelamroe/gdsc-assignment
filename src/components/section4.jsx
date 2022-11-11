@@ -1,8 +1,5 @@
 import React from "react";
-import section4_1 from '../assets/section4/driver jempolan.webp';
-import section4_2 from '../assets/section4/bbm.webp';
 import {dataSection4} from '../assets/section4/dataSection4';
-import background from '../assets/section4/background.jpg';
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Section4 = () => {
@@ -10,8 +7,8 @@ const Section4 = () => {
 	AOS.refresh();
 	AOS.refreshHard();
     return(
-        <>
-            <div className="py-12" style={{backgroundImage: `url(${background})`}}>
+        <div className="bg-white">
+            <div className="py-12 bg-[#E99C32] rounded-t-[100px]">
                 <div className="flex lg:flex-row gap-x-20 mx-20 mobile:flex-col sm:flex-col sm:gap-y-5 mobile:mx-5 mobile:gap-y-5 " data-aos="zoom-in-down"
 						data-aos-duration="1000"
 						data-aos-delay="200">
@@ -27,7 +24,7 @@ const Section4 = () => {
                     )}
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 export default Section4;
