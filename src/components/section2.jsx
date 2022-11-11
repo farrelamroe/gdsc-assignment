@@ -39,14 +39,14 @@ const Section2 = () =>{
                         <h1 className="text-3xl font-bold pb-5 sm:hidden">Gak usah khawatir gak ada ojek online yang antar jemput kamu </h1>
                     </div>
 
-                    <h1 className="text-4xl font-bold pt-5 mobile:text-3xl sm:hidden">Pake GoRide itu AMAN dan NYAMAN</h1>
+                    <h1 className="text-4xl font-bold pt-5 mobile:text-3xl sm:hidden">Proses penjemputan super gampang </h1>
                     <div className="flex sm:flex-row justify-between gap-x-16 pt-20 relative pb-20 mobile:flex-col mobile:py-5 sm:items-center sm:pt-5" data-aos="fade-right"
 						data-aos-duration="1000"
 						data-aos-delay="200">
                         <img src={section2_3} alt="section2_1" className="lg:w-[600px] rounded-[50px] mobile:rounded-lg sm:w-[300px]"/>
                         <div className="flex flex-col justify-center items-center gap-y-12 pr-20 mobile:pr-0 mobile:pt-5">
-                            <h1 className="text-4xl font-bold mobile:hidden sm:block">Pake GoRide itu AMAN dan NYAMAN</h1>
-                            <h2 className="text-base flex justify-center items-center">Mitra driver kami selalu menjadikan keamanan dan kenyamananmu dalam perjalanan sebagai prioritas. Gak cuma itu, kami juga punya fitur Bagikan Perjalanan dan Tombol Darurat di aplikasi dan Asuransi yang selalu melindungi. </h2>
+                            <h1 className="text-4xl font-bold mobile:hidden sm:block">Proses penjemputan super gampang </h1>
+                            <h2 className="text-base flex justify-center items-center">Gampang sejak tahap pemesanan hingga ketemu driver, gampang komunikasi sama driver lewat in-app chat, gampang pokoknya.</h2>
                         </div>
                     </div>
                     <div className="flex flex-row justify-between gap-x-1 top-20 pb-20 mobile:flex-col-reverse" data-aos="fade-left"
