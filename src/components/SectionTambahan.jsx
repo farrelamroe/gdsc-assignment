@@ -2,7 +2,6 @@ import Slider from "react-slick";
 import {dataFoto} from '../assets/sectiontambahan/dataSection';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import "../assets/sectiontambahan/styles.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const SectionTambahan = () => {

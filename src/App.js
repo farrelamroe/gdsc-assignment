@@ -6,12 +6,16 @@ import Section4 from './components/section4';
 import Section5 from './components/section5';
 import SectionTambahan from './components/SectionTambahan';
 import Footer from './components/footer';
+import { HtmlHead } from "./components/HtmlHead";
 import {Route, Routes} from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="overflow-hidden">
+    <HtmlHead
+				title="Beranda"
+			/>
       <Navbar/>
       <Section1 />
       <Section2 />
