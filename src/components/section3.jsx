@@ -69,27 +69,27 @@ const Section3 = () => {
        <div className="bg-white">
        <p className="bg-white w-full py-8 relative flex justify-center font-bold text-6xl mobile:flex mobile:justify-center mobile:text-4xl" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="200">Cara pesan GoRide</p>
        <div className="bg-white w-full flex flex-row justify-between mobile:flex-col-reverse mobile:gap-y-5">
-       <ul className="pl-20 mobile:px-5 cursor-pointer" data-aos="fade-right"
+       <ul className="pl-20 mobile:px-5" data-aos="fade-right"
 		data-aos-duration="1000"
 		data-aos-delay="200">
             <li onClick={handleSatu} className={number === "1" ?'  bg-[#00AA13] animation-fade rounded-[20px] py-2 px-5 w-full text-white ':"bg-white animation-fade rounded-[50px] py-2 px-5 w-fit "}> 
-                <p className="font-bold text-2xl pb-5">1․ Buka aplikasi Gojek, lalu pilih GoRide</p>
-                <p className="pl-6 mobile:pl-0">Ikonnya gambar motor, parkir di home screen Gojek.</p>    
+                <p className="font-bold text-2xl pb-5 cursor-pointer">1․ Buka aplikasi Gojek, lalu pilih GoRide</p>
+                <p className="pl-6 mobile:pl-0 cursor-pointer">Ikonnya gambar motor, parkir di home screen Gojek.</p>    
             </li>
             <li onClick={handleDua} className={number === "2" ?'  bg-[#00AA13] animation-fade rounded-[20px] py-2 px-5 w-full text-white':"bg-white animation-fade rounded-[50px] py-2 px-5 w-fit "}> 
-                <p className="font-bold text-2xl pb-5">2․ Tentukan lokasi tujuan kamu</p>
-                <p className="pl-6 mobile:pl-0">Bisa ketik alamatnya manual, atau cari lewat peta. Bebas, sesuai kebutuhan aja.</p>
+                <p className="font-bold text-2xl pb-5 cursor-pointer">2․ Tentukan lokasi tujuan kamu</p>
+                <p className="pl-6 mobile:pl-0 cursor-pointer">Bisa ketik alamatnya manual, atau cari lewat peta. Bebas, sesuai kebutuhan aja.</p>
             </li> 
             <li onClick={handleTiga} className={number === "3" ?'  bg-[#00AA13] animation-fade rounded-[20px] py-2 px-5 w-full text-white':"bg-white animation-fade rounded-[50px] py-2 px-5 w-fit "}> 
-                <p className="font-bold text-2xl pb-5">3․ Pastiin lokasi jemputmu</p>
-                <p className="pl-6 mobile:pl-0">Kamu bisa tambahin catetan buat driver. Kalo lagi di tempat umum, kamu juga bisa langsung pilih di titik/gerbang mana kamu mau dijemput.</p>
+                <p className="font-bold text-2xl pb-5 cursor-pointer">3․ Pastiin lokasi jemputmu</p>
+                <p className="pl-6 mobile:pl-0 cursor-pointer">Kamu bisa tambahin catetan buat driver. Kalo lagi di tempat umum, kamu juga bisa langsung pilih di titik/gerbang mana kamu mau dijemput.</p>
             </li> 
             <li onClick={handleEmpat} className={number === "4" ?'  bg-[#00AA13] animation-fade rounded-[20px] py-2 px-5 w-full text-white':"bg-white animation-fade rounded-[50px] py-2 px-5 w-fit "}> 
-                <p className="font-bold text-2xl pb-5" >4․ Cek ulang pesanan, pilih metode pembayaran, lalu klik 'PESAN'</p>
-                <p className="pl-6 mobile:pl-0">Pastiin lokasi jemput dan tujuan udah benar. Pembayarannya pilih antara GoPay atau tunai.</p>
+                <p className="font-bold text-2xl pb-5 cursor-pointer" >4․ Cek ulang pesanan, pilih metode pembayaran, lalu klik 'PESAN'</p>
+                <p className="pl-6 mobile:pl-0 cursor-pointer">Pastiin lokasi jemput dan tujuan udah benar. Pembayarannya pilih antara GoPay atau tunai.</p>
             </li> 
             <li onClick={handleLima} className={number === "5" ?'  bg-[#00AA13] animation-fade rounded-[20px] py-2 px-5 w-full text-white':"bg-white animation-fade rounded-[50px] py-2 px-5 w-fit "}> 
-                <p className="font-bold text-2xl pb-5">5․ Driver menuju titik jemputmu</p>
+                <p className="font-bold text-2xl pb-5 cursor-pointer">5․ Driver menuju titik jemputmu</p>
                 <p className="pl-6 mobile:pl-0">Tinggal tunggu driver kamu tiba deh. Selamat menikmati perjalananmu dengan GoRide.</p>
             </li> 
            </ul>
