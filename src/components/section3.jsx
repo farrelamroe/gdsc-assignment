@@ -69,7 +69,7 @@ const Section3 = () => {
        <div className="bg-white">
        <p className="bg-white w-full py-8 relative flex justify-center font-bold text-6xl mobile:flex mobile:justify-center mobile:text-4xl" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="200">Cara pesan GoRide</p>
        <div className="bg-white w-full flex flex-row justify-between mobile:flex-col-reverse mobile:gap-y-5">
-       <ul className="pl-20 mobile:px-5" data-aos="fade-right"
+       <ul className="pl-20 mobile:px-5 cursor-pointer" data-aos="fade-right"
 		data-aos-duration="1000"
 		data-aos-delay="200">
             <li onClick={handleSatu} className={number === "1" ?'  bg-[#00AA13] animation-fade rounded-[20px] py-2 px-5 w-full text-white ':"bg-white animation-fade rounded-[50px] py-2 px-5 w-fit "}> 

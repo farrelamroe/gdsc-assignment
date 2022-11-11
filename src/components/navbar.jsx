@@ -109,7 +109,7 @@ const Navbar = () => {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full"
+              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full hover:text-white"
             >
               GoRide Protect+
             </li>
@@ -117,7 +117,7 @@ const Navbar = () => {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full"
+              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full hover:text-white"
             >
               GoRide Electric
             </li>
@@ -125,7 +125,7 @@ const Navbar = () => {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              className="w-auto] cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full"
+              className="w-auto] cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full hover:text-white"
             >
               Blog
             </li>
@@ -133,7 +133,7 @@ const Navbar = () => {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full"
+              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full hover:text-white"
             >
               Daftar Driver
             </li>
@@ -141,7 +141,7 @@ const Navbar = () => {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full"
+              className="w-auto cursor-pointer py-1 px-3 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:bg-[#00AA13] border-gray-300 border rounded-full hover:text-white"
             >
               FAQ
             </li>

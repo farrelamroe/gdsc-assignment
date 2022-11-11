@@ -13,9 +13,7 @@ import './App.css';
 function App() {
   return (
     <div className="overflow-hidden">
-    <HtmlHead
-				title="Beranda"
-			/>
+    <HtmlHead title="Beranda"/>
       <Navbar/>
       <Section1 />
       <Section2 />
